@@ -52,26 +52,46 @@ Latitude vs. Wind Speed
 
 For each scatter plot, a linear regression analysis is performed for both the Northern and Southern Hemispheres. The linear regression line is plotted on the scatter plot along with the regression equation. The r-value (coefficient of determination) is provided to indicate the strength of the linear relationship between latitude and the weather variable.
 
+#### Temperature vs. Latitude Linear Regression Plot
+
+The Northern r-value is: 0.7432718426426184
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/68a32342-049c-4d2d-907b-1ae17a545af3)
 
+The Southern r-value is: 0.6321280156659894
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/f92b70e9-f430-44bf-b81a-2cab2ec7fb72)
+
 Discussion about the linear relationship: The r-value of 0.6321280156659894 indicates a moderate positive linear relationship between the two variables. In other words, there is a moderate linear relationship between the latitude and the maximum temperature in the Northern Hemisphere.
 
 This means that as you move closer to the equator (i.e., decrease in latitude), the chosen variable is also likely to increase.
 
 It's important to keep in mind that correlation does not necessarily mean causation, and further analysis would be needed to determine the specific factors driving the observed relationship between latitude and the chosen variable in the Southern Hemisphere.
 
+Humidity vs. Latitude Linear Regression Plot
+
+The Northern r-value is: 0.035471978532659945
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/7f3b2c54-257d-4397-b0fc-5d9beb426cdd)
+
+The Southern r-value is: 0.020687392677830103
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/09210a7d-b006-4a85-8acd-0928b43f0af9)
 
 Discussion about the linear relationship: Based on the r-value of 0.020687392677830103, there may be a weak positive linear relationship between the two variables being measured. But r-value alone does not provide information about causation or the presence of non-linear relationships between the variables. Other factors can affect the interpretation of the r-value.
 
+Cloudiness vs. Latitude Linear Regression Plot
+
+The Northern r-value is: 0.002207739330413193
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/80f6fddb-5d24-42cd-832d-6f893259d900)
+
+The Southern r-value is: 0.031582010525788115
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/871d75e5-432b-4168-8d92-b712b56dfecd)
 
 Discussion about the linear relationship: The r-value of 0.031582010525788115, which is a small positive number between 0 and 1, suggests that there may be a weak positive linear relationship between the two variables being measured. However, the r-value alone does not provide information about causation or the presence of non-linear relationships between the variables. Also, ther factors such as sample size and the distribution of the data can affect the interpretation of the r-value.
 
+Wind Speed vs. Latitude Linear Regression Plot
+
+The Northern r-value is: 0.0007034828087211801
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/ffeb88e6-987b-42f1-b35d-01479f749d24)
+
+The Southern r-value is: 0.19672836044457795
 ![image](https://github.com/agorvie/python-api-challenge/assets/122469792/fcca4f6f-4a16-44e4-ae46-603db1c758c3)
 
 Discussion about the linear relationship: The r-value of 0.19672836044457795 indicates that there is a weak positive linear relationship between wind speed and latitude in the southern hemisphere. However, it's important to note that the r-value alone does not provide information about causation or the strength of any non-linear relationships that may exist between the variables. Additionally, other factors such as sample size and the distribution of the data can affect the interpretation of the r-value.
