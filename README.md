@@ -1,40 +1,51 @@
-## Python API Challenge
-Welcome to this Python API Challenge! A class homework for my Washignton University, Data Analytics BootCamp. In this project, I'll be using my knowledge of Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+# Weather Analysis & Vacation Planner
 
-### Project Overview
+Welcome to the Weather Analysis & Vacation Planner project! This project is part of the Data Analytics BootCamp at Washington University and involves using Python, APIs, and data visualization to explore weather patterns and plan future vacations.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Part 1: WeatherPy](#part-1-weatherpy)
+- [Part 2: VacationPy](#part-2-vacationpy)
+- [Getting Started](#getting-started)
+- [Findings](#findings)
+
+## Project Overview
+
+In this project, we will create two main parts: WeatherPy and VacationPy.
+
 ### Part 1: WeatherPy
-In this deliverable, I'll create a Python script called WeatherPy to visualize the weather of over 500 cities with varying distances from the equator. I'll utilize the citipy Python library, the OpenWeatherMap API, and my problem-solving skills to build a representative model of weather across cities.
 
-### Requirements:
+In WeatherPy, I will retrieve weather data for over 500 cities from the OpenWeatherMap API. I will then visualize the relationships between weather variables and latitude using scatter plots and perform linear regression analysis to understand these relationships. The key requirements include:
 
-- Retrieve weather data using the OpenWeatherMap API.
-- Create scatter plots to showcase the relationships between weather variables and latitude.
-- Compute linear regression for each relationship.
-- Generate scatter plots with linear regression lines and model details.
-  
+- Retrieving weather data using the OpenWeatherMap API.
+- Creating scatter plots to showcase the relationships between weather variables and latitude.
+- Computing linear regression for each relationship.
+- Generating scatter plots with linear regression lines and model details.
+
 ### Part 2: VacationPy
-Moving on to the second part, VacationPy, I'll use the weather data I gathered to plan future vacations. I'll be working with Jupyter notebooks, the geoViews Python library, and the Geoapify API to create map visualizations.
 
-### Tasks:
-- Create a map displaying cities with point sizes representing humidity levels.
-- Narrow down cities based on specific weather conditions.
-- Create a DataFrame to store hotel information.
-- Use the Geoapify API to find nearby hotels for selected cities.
-- Enhance the map with hotel names and countries in hover messages.
+In VacationPy, I will use the weather data obtained in WeatherPy to plan future vacations. I will create map visualizations that display cities based on humidity levels and narrow down cities based on specific weather conditions. Additionally, I will use the Geoapify API to find nearby hotels for selected cities and enhance the map with hotel names and countries in hover messages. The key tasks include:
 
-### Getting Started
-- To run the WeatherPy project on your local machine, follow these steps:
-- Clone the repository: 
-git clone [(https://github.com/agorvie/python-api-challenge]
-- Install the required dependencies:
-pip install matplotlib pandas numpy requests scipy citipy
-- Obtain an API key from OpenWeatherMap and add it to the api_keys.py file.
+- Creating a map displaying cities with point sizes representing humidity levels.
+- Narrowing down cities based on specific weather conditions.
+- Creating a DataFrame to store hotel information.
+- Using the Geoapify API to find nearby hotels for selected cities.
+- Enhancing the map with hotel names and countries in hover messages.
 
-- Run the WeatherPy.ipynb Jupyter Notebook or the equivalent Python script. This script generates scatter plots, performs linear regression analysis, and discusses the results.
+## Getting Started
 
-- The generated scatter plots and linear regression analysis results will be saved in the output_data directory.
+To run this project on your local machine, follow these steps:
 
-### Findings
+1. Clone the repository: `git clone https://github.com/agorvie/python-api-challenge.git`
+2. Install the required dependencies: `pip install matplotlib pandas numpy requests scipy citipy`
+3. Obtain an API key from OpenWeatherMap and add it to the `api_keys.py` file.
+4. Run the `WeatherPy.ipynb` Jupyter Notebook or the equivalent Python script. This script generates scatter plots, performs linear regression analysis, and discusses the results.
+5. The generated scatter plots and linear regression analysis results will be saved in the `output_data` directory.
+
+## Findings
+
+The findings and insights from the WeatherPy and VacationPy analyses will be discussed in the respective Jupyter Notebooks and Python scripts within this repository.
+
 ### Scatter Plots and Linear Regression
 The project generates scatter plots for the following weather variables:
 
